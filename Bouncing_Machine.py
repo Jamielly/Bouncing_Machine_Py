@@ -24,7 +24,7 @@ def maquina_saltitante(instrucoes):
     width = x_max - x_min + 1
     height = y_max - y_min + 1
 
-    # Crie um mapa vazio preenchido com 'O'
+    # Criando um mapa vazio preenchido com 'O'
     mapa = [['O'] * width for _ in range(height)]
 
     # Reposicionamento da máquina na posição inicial
